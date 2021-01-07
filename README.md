@@ -36,3 +36,4 @@ webSocket.onmessage = (message)= > console.log(`You receive the messages : ${mes
 webSocket.send("<yourmessagehere>")
 
 ```
+3. Try to send message each other
