@@ -17,6 +17,7 @@
 
 3. Run Commands :
    ``` docker-compose up ```
+   
    add ``` -d ``` parameter if want to running on background.
 
    Reverse Proxy will run in ```http://localhost:8080```
