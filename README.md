@@ -7,20 +7,20 @@
 1. Make sure have been already installed docker & docker-compose in your OS (Mac OS / Linux / Windows).
 2. You can build your own images :
 
-``` docker build -t<yourusername/yourimagename>:tag . ```
+   ``` docker build -t<yourusername/yourimagename>:tag . ```
 
    And change image src ("lb" service section) in ```docker-compose.yml``` configuration with your images.
 
-   Or you can pull from my images hosted in Docker Hub
+   Or you can pull from my images hosted in Docker Hub :
 
-``` docker pull pickezdocker/ws_live_chat_server:0.1 ```
+   ``` docker pull pickezdocker/ws_live_chat_server:0.1 ```
 
 3. Run Commands :
-``` docker-compose up ```
+   ``` docker-compose up ```
    add ``` -d ``` parameter if want to running on background.
 
-Reverse Proxy will run in ```http://localhost:8080```
-
+   Reverse Proxy will run in ```http://localhost:8080```
+  
 ### Client code example
 
 1. Spin up 2 or more browsers
