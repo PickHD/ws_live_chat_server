@@ -23,7 +23,8 @@ Reverse Proxy will run in ```http://localhost:8080```
 
  
 ### Client code example
-Just create new ```Websocket``` instance ex. Browsers with ```Javascript``` :
+1. Spin up 2 or more browsers
+2. Then create new ```Websocket``` instances each browser with ex. ```Javascript``` code :
 ```
 // Initialize web socket instance
 const webSocket = new WebSocket("ws://localhost:8080")
