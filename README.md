@@ -5,7 +5,7 @@
 1. Make sure have been already installed docker & docker-compose in your OS (Mac OS / Linux / Windows).
 2. You can build your own images :
 ```
-docker build -t<yourusername/yourimagename>:tag
+docker build -t<yourusername/yourimagename>:tag .
 ```
    And change image src ("lb" service section) in ```docker-compose.yml``` configuration with your images.
    
