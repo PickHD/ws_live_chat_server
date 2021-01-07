@@ -1,0 +1,34 @@
+version: '3'
+services: 
+    lb:
+        image: nginx
+        ports:
+          - "8080:8080"
+        volumes: 
+          - ./nginx/http.conf:/etc/nginx/nginx.conf
+        restart: always
+    rds:
+      image: redis
+      restart: always 
+    ws1:
+      image: pickezdocker/ws_live_chat_server:0.1
+      environment: 
+            - APPID=1111
+      restart: always
+    ws2:
+      image: pickezdocker/ws_live_chat_server:0.1
+      environment: 
+            - APPID=2222
+      restart: always
+    ws3:
+      image: pickezdocker/ws_live_chat_server:0.1
+      environment: 
+            - APPID=3333
+      restart: always
+    ws4:
+      image: pickezdocker/ws_live_chat_server:0.1
+      environment: 
+            - APPID=4444
+      restart: always
+  
+      
