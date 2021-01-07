@@ -14,6 +14,7 @@
    Or you can pull from my images hosted in Docker Hub
 
 ``` docker pull pickezdocker/ws_live_chat_server:0.1 ```
+
 3. Run Commands :
 ``` docker-compose up ```
    add ``` -d ``` parameter if want to running on background.
