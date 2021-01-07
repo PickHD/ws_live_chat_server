@@ -26,7 +26,7 @@ Reverse Proxy will run in ```http://localhost:8080```
 Just create new ```Websocket``` instance ex. Browsers with ```Javascript``` :
 ```
 // Initialize web socket instance
-const webSocket = new WebSocket("http://localhost:8080")
+const webSocket = new WebSocket("ws://localhost:8080")
 
 // Create "onmessage" events
 webSocket.onmessage = (message)= > console.log(`You receive the messages : ${message.data}`)
